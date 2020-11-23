@@ -1,4 +1,4 @@
 FROM backup-pserver
 
-COPY /tmp/pserver /code/
+COPY pserver /code/
 RUN ls -al /code
